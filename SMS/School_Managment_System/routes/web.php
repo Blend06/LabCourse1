@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\OrariController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DrejtoriController;
+use App\Http\Controllers\StudentiController;
 
 
 
@@ -23,7 +24,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 Route::resource('oraris', OrariController::class);
+Route::resource('drejtori', DrejtoriController::class);
+Route::resource('_studenti', 'StudentiController');
 require __DIR__.'/auth.php';
 
-
-Route::resource('drejtori', DrejtoriController::class);
