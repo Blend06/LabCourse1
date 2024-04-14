@@ -1,0 +1,188 @@
+.Login{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    background: white;
+    margin-top: 75px;
+}
+
+
+ 
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* 100 EDIT*/
+
+    
+  }
+
+
+
+
+
+  
+  .form-box.login {
+    width: 400px;/* 300 EDIT*/ 
+    max-height: 100vh;
+    background: #fff;
+    padding: 60px; /* 20 EDIT*/  
+    border-radius: 17px; /* 10 EDIT*/   
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);   /* 10 EDIT*/ 
+    margin-top: -190px;
+    
+    
+    
+  }
+
+
+  .form-box.register {
+    width: 400px;/* 300 EDIT*/ 
+    max-height: 100vh;
+    background: #fff;
+    padding: 35.9px; /* 20 EDIT*/  
+    border-radius: 17px; /* 10 EDIT*/   
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);   /* 10 EDIT*/ 
+    margin-top: -190px;
+    
+    
+    
+  }
+
+
+  
+  .title1{
+    color: black;
+    text-align: left;
+    font-size: 27px;
+    margin-bottom: 53px;
+    
+  }
+
+  .title2{
+    color: black;
+    text-align: left;
+    font-size: 27px;
+    margin-bottom: 53px;
+  }
+
+
+  
+  .input-box {
+    position: relative;
+    margin-bottom: 40px; /* 20 EDIT*/ 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+
+.toggle-label {
+    cursor: pointer;
+    color: #3498db;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+  .label{
+    max-height: 190vh;
+  }
+  
+  .input-box input {
+    width: 84%; /* 100 EDIT*/ 
+    padding: 20px; /* 10 EDIT*/ 
+    font-size: 17px;/* 16 EDIT*/ 
+    border: 2px solid #ccc; /* 1 EDIT*/ 
+    border-radius: 10px; /* 5 EDIT*/ 
+    
+
+  }
+  
+  .input-box label {
+    position: absolute;
+    margin-top: 80px;
+    left: 27px;
+    font-size: 16px;
+    color: #999;
+    pointer-events: none;
+    transition: 0.3s;
+    opacity: 1; /* Added opacity property */
+  }
+  
+  .input-box input:focus + label,
+  .input-box input:valid + label,
+  .input-box input:not(:placeholder-shown) + label {
+    top: -10px;
+    font-size: 12px;
+    color: #333;
+  }
+  
+  
+  .icon {
+    position: absolute;
+    top: 50%; /* 50 EDIT*/ 
+    left: 31.5px; /* 10 EDIT*/ 
+    transform: translateY(-50%);
+  }
+  
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px; /* 20 EDIT*/ 
+  }
+  
+  .buttoni-login {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px; /* 10 EDIT*/ 
+    border: none;
+    border-radius: 10px; /* 5 EDIT*/ 
+    cursor: pointer;
+    margin-top: 22px;
+  }
+  
+  .login-register p {
+    text-align: center;
+    margin-top: 22px;
+  }
+
+  .login-register{
+  margin-top: 30px;
+  }
+
+
+  .login-register a {
+    color: #3498db;
+    text-decoration: none;
+    
+   
+  }
+
+
+  .login-shift p {
+    text-align: center;
+    margin-top: 22px;
+  }
+
+  .login-shift{
+  margin-top: 30px;
+  }
+
+
+  .login-shift a {
+    color: #3498db;
+    text-decoration: none;
+    
+   
+  }
+
+  
