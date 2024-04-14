@@ -5,7 +5,7 @@ use App\Http\Controllers\OrariController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DrejtoriController;
 use App\Http\Controllers\StudentiController;
-
+use App\Http\Controllers\ProfesoriController;
 
 
 
@@ -26,5 +26,7 @@ Route::middleware('auth')->group(function () {
 Route::resource('oraris', OrariController::class);
 Route::resource('drejtori', DrejtoriController::class);
 Route::resource('_studenti', 'StudentiController');
+Route::resource('_profesoret', 'ProfesoriController');
+
 require __DIR__.'/auth.php';
 
