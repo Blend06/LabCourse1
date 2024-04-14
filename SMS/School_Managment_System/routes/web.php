@@ -2,9 +2,13 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DrejtoriController;
+
+
+
 
 Route::get('/', function () {
-    return view('Homepage react/src/pages/FrameOne/index');
+    return view('welcome');
 });
 
 Route::get('/dashboard', function () {
@@ -18,3 +22,6 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+
+Route::resource('drejtori', DrejtoriController::class);
