@@ -66,9 +66,9 @@ function LoginForm() {
               <div className="input-box user-admin" style={{ color: 'red', fontSize: '16px' }}>
                 <span className="icon" style={{ marginTop: '3px' }}><ion-icon name="person-circle-outline"></ion-icon></span>
                 <select name="role" required>
-                  <option value="user">User</option>
-                  <option value="admin">Admin</option>
-                  <option value="admin">BIGAdmin</option>
+                  <option value="user">Student</option>
+                  <option value="user">Profesor</option>
+                  <option value="admin">Drejtor</option>
                 </select>
                 <label style={{ top: '-80px', marginLeft: '90px' }}>Jam</label>
               </div>
