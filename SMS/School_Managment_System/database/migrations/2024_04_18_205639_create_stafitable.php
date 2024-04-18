@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('drejtori', function (Blueprint $table) {
+        Schema::create('stafitable', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
             $table->string('Emri');
@@ -19,6 +19,7 @@ return new class extends Migration
             $table->integer('Mosha');
             $table->string('Email')->unique();
             $table->string('Password');
+            $table->string('pozita');
         });
     }
 
@@ -27,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('drejtori');
+        Schema::dropIfExists('stafitable');
     }
 };

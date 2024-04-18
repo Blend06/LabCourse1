@@ -9,19 +9,19 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
-    public function up(): void
+    public function up()
     {
-        Schema::create('drejtoris', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+        Schema::rename('stafitable', 'stafi');
     }
+    
 
     /**
      * Reverse the migrations.
      */
     public function down(): void
     {
-        Schema::dropIfExists('drejtoris');
+        Schema::table('stafi', function (Blueprint $table) {
+            //
+        });
     }
 };
