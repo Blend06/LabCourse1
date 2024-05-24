@@ -3,6 +3,8 @@ import Homepage from "./Views/Homepage/Homepage";
 import Login from "./Views/Homepage/Login";
 import Register from "./Views/Homepage/Register";
 import Contact from "./Views/Homepage/Contact";
+import Dashboard from "./Views/Dashboard/Dashboard";
+
 const router = createBrowserRouter([
     {
         path: '/',
@@ -19,6 +21,10 @@ const router = createBrowserRouter([
     {
         path: '/contact',
         element: <Contact/>
+    },
+    {
+        path: '/dashboard',
+        element: <Dashboard/>
     }
 ])
 
