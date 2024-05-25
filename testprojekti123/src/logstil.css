@@ -1,0 +1,139 @@
+body{
+  font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+
+.Login, .Register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  background: url('foto3.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: -40px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.form-box.login {
+  width: 400px;
+  max-height: 100vh;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 4px;
+  border-radius: 17px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: -190px;
+}
+
+.form-box.register {
+  width: 500px;
+  max-height: 100vh;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 17px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: -30px;
+}
+
+.title1, .title2 {
+  color: black;
+  text-align: center; /* Align the text to center */
+  font-size: 27px;
+  margin-bottom: 53px;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+
+.input-box {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.input-box input {
+  width: 84%;
+  padding: 20px;
+  font-size: 17px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.input-box label {
+  position: absolute;
+  margin-top: 80px;
+  left: 7px;
+  font-size: 16px;
+  color: rgb(55, 55, 55);
+  pointer-events: none;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.input-box input:focus + label,
+.input-box input:valid + label,
+.input-box input:not(:placeholder-shown) + label {
+  top: -10px;
+  font-size: 12px;
+  color: #333;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 31.5px;
+  transform: translateY(-50%);
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.buttoni-login {
+  background-color: #eb640b;
+  color: #fff;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%; /* Set the width to 100% */
+  box-sizing: border-box;
+  margin-top: 20px; /* Add margin top */
+}
+.form-box.login,
+.form-box.register {
+  width: 400px; /* Set the same width for both login and registration boxes */
+  max-height: 100vh;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px; /* Adjust padding if needed */
+  border-radius: 17px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: -30px; /* Adjust margin top if needed */
+}
+.Login {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  min-height: 75vh;
+  background: url('foto3.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: -40px;
+}
+
+.login-register {
+  text-align: center; /* Center the text horizontally */
+}
+.login-shift {
+  text-align: center; /* Center the text horizontally */
+}

@@ -1,0 +1,16 @@
+
+.Key_Key {
+	width: 102px;
+	height: 64px;
+	display: flex;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 12px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	border: 3.0399999618530273px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
