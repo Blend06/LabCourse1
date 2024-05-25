@@ -1,8 +1,11 @@
 import React from 'react';
 import styles from './loginregister.module.css'; // Make sure the path is correct
+import Footer from '../../Footer.jsx';
+import { Link } from 'react-router-dom';
 
 export default function Login() {
     return (
+        <>
         <div>
             <section className={styles.Login} id="Login">
 
@@ -25,11 +28,14 @@ export default function Login() {
                             <button type="submit" name="login-submit" className={styles.buttoniLogin}>Login</button>
                         </form>
                         <div className={styles.loginRegister}>
-                            <p>Don't have an account <button className={styles.registerLink}>Register</button></p>
+                            <p>Don't have an account <button className={styles.registerLink}>
+                            <Link to ="/register">Register</Link></button></p>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
+        <Footer />
+        </>
     );
 }
