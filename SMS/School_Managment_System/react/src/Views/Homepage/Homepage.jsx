@@ -4,6 +4,8 @@ import homepageImage from '../../assets/img/homepage2.png';
 import styles from '../../styles.module.css';
 import Header from '../../Header.jsx';
 import Footer from '../../Footer.jsx';
+
+
 export default function Homepage() {
     return (
         <>

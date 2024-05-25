@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from './dashboard.module.css';
+import { Link } from 'react-router-dom';
 
 export default function Dashboard() {
     return  (
        <>
+       <div className={styles.body}>
         <div className={styles.mainContent}>
             <nav className={styles.sidebar}>
                 <div className={styles['menu-bar']}>
@@ -33,12 +35,13 @@ export default function Dashboard() {
                     <div className={styles['bottom-content']}>
                         <li className={styles['nav-links-return']}>
                             <i className='bx bx-log-out' style={{ color: 'var(--primary-color)' }}></i>
-                            <a href="#">Return to Home Page</a>
+                            <Link to="/">Return to homepage</Link>
                         </li>
                         <a href="#">Log-out</a>
                     </div>
                 </div>
             </nav>
+        </div>
         </div>
         </>
     );

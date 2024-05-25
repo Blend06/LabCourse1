@@ -1,5 +1,4 @@
 :root {
-    --body-color: #242526;
     --sidebar-color: #18191a;
     --primary-color: #FF4400;
     --primary-color-light: #f6f5ff;
@@ -13,9 +12,9 @@
     --tran-05: all 0.5s ease;
   }
   
-  body {
+  .body {
     height: 100vh;
-    background: var(--body-color);
+    background-color:#2b2b2c;
     font-family: var(--default-font);
   }
   
