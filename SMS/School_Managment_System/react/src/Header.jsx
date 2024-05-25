@@ -11,7 +11,7 @@ function Header() {
         <header className={`${styles.header} ${styles['d-flex']} ${styles['align-items-center']} ${styles['sticky-top']}`}>
             <div className={`${styles.container} ${styles['container-fluid']} ${styles['container-xl']} ${styles['position-relative']} ${styles['d-flex']} ${styles['align-items-center']}`}>
             <div className={`${styles.logo} ${styles['d-flex']} ${styles['align-items-center']} ${styles['me-auto']}`}>
-                    <h1 className={styles.sitename}>AcademixPro</h1>
+                    <h1 className={styles.sitename}><strong style={{color: '#ff4400'}}>AcademixPro</strong> </h1>
                 </div>
                 <nav className={styles.navmenu}>
                     <ul>

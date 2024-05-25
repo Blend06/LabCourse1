@@ -1005,3 +1005,45 @@
     }
   }
 
+
+  .aboutUs {
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    position: relative; /* Create a positioning context for the ::before pseudo-element */
+    z-index: 1; /* Ensure this section is on top of other elements */
+    color: rgb(0, 0, 0); /* Set text color to white for readability */
+    margin: 0; /* Remove any default margin */
+    font-size: xx-large;
+  }
+  
+  .aboutUs::before {
+    content: ''; /* Required for the pseudo-element to be rendered */
+    position: absolute; /* Position absolutely within the .aboutUs section */
+    top: 0; /* Stretch to the top */
+    left: 0; /* Stretch to the left */
+    right: 0; /* Stretch to the right */
+    bottom: 0; /* Stretch to the bottom */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    z-index: -1; /* Place the overlay behind the content */
+  }
+  
+  .aboutUsTitle {
+    font-size: 60px; /* Increase font size */
+    font-weight: bold; /* Keep font bold */
+    color: #FF4400; /* Ensure the title is visible over the background */
+    margin-bottom: 50px; /* Add bottom margin */
+    padding: 40px; /* Add padding */
+    text-align: center; /* Center align the title */
+  }
+  
+  .aboutUsDescription {
+    font-size: 24px; /* Increase font size */
+    color: #000000; /* Ensure the description is visible over the background */
+    line-height: 1.8; /* Increase line height for better readability */
+    margin-bottom: 100px; /* Add bottom margin */
+  }
+
+ .imageContainer{
+  margin-bottom: 100px;
+  margin-right: 20px;
+ }

@@ -7,7 +7,7 @@ export default function Register() {
   return (
     <>
     <section className={styles.Register} id="Register">
-          <div className={styles.wrapper}>
+          <div className={styles.wrapper} style={{paddingTop: '170px'}}>
               <div className={`${styles.formBox} ${styles.register}`}>
                   <h2 className={styles.title2}>Registration</h2>
                   <form>
@@ -37,7 +37,7 @@ export default function Register() {
                       <button type="submit" name="register-submit" className={styles.buttoniLogin}>Register</button>
                   </form>
                   <div className={styles.loginShift}>
-                      <p>Back to <button className={styles.loginLink}><Link to="/login">Log in</Link></button></p>
+                      <p>Back to <button className={styles.loginLink} style={{background: 'none', textDecoration: 'none', border: 'none'}}><Link to="/login">Log in</Link></button></p>
                   </div>
               </div>
           </div>

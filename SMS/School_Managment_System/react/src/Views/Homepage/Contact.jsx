@@ -14,22 +14,22 @@ export default function Contact() {
                 </div>
                 <div className="container" data-aos="fade-up" data-aos-delay="100">
                     <div className="row gy-4">
-                        <div className="col-lg-4">
-                            <div className="d-flex align-items-center info-item" data-aos="fade-up" data-aos-delay="300">
+                        <div className="col-lg-4" style={{ display: 'flex', alignItems: 'space-between', gap: '490px' }}>
+                            <div className=" align-items-center info-item" data-aos="fade-up" data-aos-delay="300">
                                 <i className="bi bi-geo-alt flex-shrink-0" style={{ color: '#ffffff', backgroundColor: '#FF4400', fontSize: '20px', width: '48px', height: '48px', display: 'flex', justifyContent: 'center', alignItems: 'center', borderRadius: '50px', transition: 'all 0.3s ease-in-out', marginRight: '15px' }}></i>
                                 <div>
                                     <h3 style={{ padding: 0, fontSize: '18px', fontWeight: 700, marginBottom: '5px' }}>Address</h3>
                                     <p style={{ padding: 0, marginBottom: 0 }}>Prishtina, 10000</p>
                                 </div>
                             </div>
-                            <div className="d-flex align-items-center info-item" data-aos="fade-up" data-aos-delay="400">
+                            <div className="align-items-center info-item" data-aos="fade-up" data-aos-delay="400">
                                 <i className="bi bi-telephone flex-shrink-0" style={{ color: '#ffffff', backgroundColor: '#FF4400', fontSize: '20px', width: '48px', height: '48px', display: 'flex', justifyContent: 'center', alignItems: 'center', borderRadius: '50px', transition: 'all 0.3s ease-in-out', marginRight: '15px' }}></i>
                                 <div>
                                     <h3 style={{ padding: 0, fontSize: '18px', fontWeight: 700, marginBottom: '5px' }}>Call Us</h3>
                                     <p style={{ padding: 0, marginBottom: 0 }}>+383 44 888 999</p>
                                 </div>
                             </div>
-                            <div className="d-flex align-items-center info-item" data-aos="fade-up" data-aos-delay="500">
+                            <div className=" align-items-center info-item" data-aos="fade-up" data-aos-delay="500">
                                 <i className="bi bi-envelope flex-shrink-0" style={{ color: '#ffffff', backgroundColor: '#FF4400', fontSize: '20px', width: '48px', height: '48px', display: 'flex', justifyContent: 'center', alignItems: 'center', borderRadius: '50px', transition: 'all 0.3s ease-in-out', marginRight: '15px' }}></i>
                                 <div>
                                     <h3 style={{ padding: 0, fontSize: '18px', fontWeight: 700, marginBottom: '5px' }}>Email Us</h3>

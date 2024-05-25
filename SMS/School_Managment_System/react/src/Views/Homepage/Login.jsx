@@ -11,24 +11,24 @@ export default function Login() {
 
                 <div className={styles.wrapper}>
                     <div className={`${styles.formBox} ${styles.login}`}>
-                        <h2 className={styles.title1}>Log in</h2>
+                        <h2 className={styles.title1}><strong style={{color: '#ff4400'}}>Log in</strong></h2>
                         <form>
                             <div className={styles.inputBox}>
                                 <span className={styles.icon}><ion-icon name="mail"></ion-icon></span>
                                 <input type="email" name="username" required />
-                                <label>Email</label>
+                                <label style={{color: '#ff4400'}}>Email</label>
                             </div>
                             <div className={styles.inputBox}>
                                 <span className={styles.icon}>
                                     <ion-icon name="lock-closed"></ion-icon>
                                 </span>
                                 <input type="password" name="password" required />
-                                <label>Password</label>
+                                <label style={{color: '#ff4400'}}>Password</label>
                             </div>
                             <button type="submit" name="login-submit" className={styles.buttoniLogin}>Login</button>
                         </form>
                         <div className={styles.loginRegister}>
-                            <p>Don't have an account <button className={styles.registerLink}>
+                            <p>Don't have an account <button className={styles.registerLink} style={{background: 'none', textDecoration: 'none', border: 'none'}}>
                             <Link to ="/register">Register</Link></button></p>
                         </div>
                     </div>

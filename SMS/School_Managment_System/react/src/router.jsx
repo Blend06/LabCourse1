@@ -4,6 +4,7 @@ import Login from "./Views/Homepage/Login";
 import Register from "./Views/Homepage/Register";
 import Contact from "./Views/Homepage/Contact";
 import Dashboard from "./Views/Dashboard/Dashboard";
+import Aboutus from "./Views/Homepage/Aboutus";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
     {
         path: '/dashboard',
         element: <Dashboard/>
+    },
+    {
+        path: '/aboutus',
+        element: <Aboutus/>
     }
 ])
 
