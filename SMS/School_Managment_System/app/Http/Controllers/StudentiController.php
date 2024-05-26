@@ -34,9 +34,10 @@ class StudentiController extends Controller
             'Mbiemri' => 'required|string',
             'Mosha' => 'required|integer',
             'Email' => 'required|email|unique:studenti,Email',
-            'Mesatarja' => 'required|numeric',
-            'Viti_Mesimore' => 'required|integer',
+            'Mesatarja' => 'nullable|numeric',
+            'Viti_Mesimore' => 'nullable|integer',
             'Password' => 'required|string',
+            'pozita' => 'required|string', 
         ]);
 
         Studenti::create($validatedData);
@@ -72,9 +73,10 @@ class StudentiController extends Controller
             'Mbiemri' => 'required|string',
             'Mosha' => 'required|integer',
             'Email' => 'required|email|unique:studenti,Email,'.$id,
-            'Mesatarja' => 'required|numeric',
-            'Viti_Mesimore' => 'required|integer',
+            'Mesatarja' => 'nullable|numeric',
+            'Viti_Mesimore' => 'nullable|integer',
             'Password' => 'required|string',
+            'pozita' => 'required|string', 
         ]);
 
         $student = Studenti::findOrFail($id);
